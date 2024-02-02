@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2GJKu+yPTBkIqHU0lobIzWoItj5/RgS4mLjdOxCfkrOMX4zUxiRcHoGYif2NP6OLH5NeSfinDEsWZegP9sx9XQ==",
+  "dgSpecHash": "IyaVYMVhtHMpKW2OTqDhhLlSWaQnMHBAjXB5uI4Av2wDkg5iPKJ3Uiu8syVYQcPfStDW1frnvHUwmxpc2kdqgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mfetu\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+  "projectFilePath": "C:\\Users\\mfetu\\source\\repos\\NG-thing\\ConsoleApp2\\ConsoleApp2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mfetu\\.nuget\\packages\\spectre.console\\0.48.0\\spectre.console.0.48.0.nupkg.sha512",
     "C:\\Users\\mfetu\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
