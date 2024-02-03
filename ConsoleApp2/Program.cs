@@ -7,10 +7,24 @@ Random rnd = new Random();
 int randomnumbernumber = rnd.Next(50);
 int randomnumber = rnd.Next(randomnumbernumber);
 int usertries = 1;
-
-string username = AnsiConsole.Ask<string>("Type in your username:");
+string scores = "";
 string fileName = @"C:\CSFiles_mf\scoresguessinggame.txt";
 string dirname = @"C:\CSFiles_mf";
+
+void Scoreboard()
+{
+    using (StreamReader sr2 = File.OpenText(fileName)) ;
+    {
+        scores = File.ReadAllText(fileName);
+    }
+    Console.WriteLine("///////( Scores )///////");
+    Console.WriteLine(scores);
+    Console.WriteLine("////////////////////////");
+}   
+
+Scoreboard();
+string username = AnsiConsole.Ask<string>("Type in your username:");
+
 QuestionNumber();
 
 
@@ -59,6 +73,5 @@ QuestionNumber();
 
     }
 }  
-
 
 
